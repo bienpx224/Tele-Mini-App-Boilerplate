@@ -1,0 +1,58 @@
+@font-face {
+  font-family: SpaceMono-Bold;
+  src: url('../assets/fonts/SpaceMono-Bold.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: SpaceMono-Regular;
+  src: url('../assets/fonts/SpaceMono-Regular.ttf');
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Super-Mario-Bros;
+  src: url('../assets/fonts/Super-Mario-Bros.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: RetroGaming;
+  src: url('../assets/fonts/RetroGaming.ttf');
+  font-weight: 400;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.data-loading {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-family: 'SpaceMono-Bold', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.btn-wrap {
+  position: relative;
+
+  &__icon-left {
+    position: absolute;
+    left: 4px;
+    bottom: 0;
+  }
+
+  &__icon-right {
+    position: absolute;
+    right: 3px;
+    top: -6px;
+  }
+}
