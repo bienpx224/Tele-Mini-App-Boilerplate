@@ -8,5 +8,6 @@
   "game_build_version": "0014",
   "address_bank": "0QDVILfsYYjNErXGqLzp2gNePOn-NVvE69By92V-tfL1LApC",
   "ton_api": "https://testnet.toncenter.com/api/v3/transactions",
-  "ton_manifestUrl": "https://dev.coin-master-game.sotatek.works/build-config/static/tonconnect-manifest.json"
+  "ton_manifestUrlReal": "https://dev.coin-master-game.sotatek.works/build-config/static/tonconnect-manifest.json",
+  "ton_manifestUrl": "https://ton-connect.github.io/demo-dapp-with-react-ui/tonconnect-manifest.json"
 }
